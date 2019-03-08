@@ -1,0 +1,59 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:background="#5fc3cc"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ITavel"
+            android:gravity="center"
+            android:textSize="60sp"
+            android:fontFamily="serif"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="let's travel "
+            android:fontFamily="serif"
+            android:gravity="center"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="دخول "
+            android:layout_marginTop="40dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_background"
+            android:id="@+id/bt_loginPage"
+
+            />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="تسجيل الدخول"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_background"
+            android:id="@+id/bt_RegPage"
+
+            />
+
+    </LinearLayout>
+</RelativeLayout>

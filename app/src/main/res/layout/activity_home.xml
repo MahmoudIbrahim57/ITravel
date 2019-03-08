@@ -1,0 +1,68 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+     >
+
+
+    <Button
+        android:id="@+id/bt_emara"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:text="الامارات"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/bt_egy"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="مصر"
+        android:textSize="24sp"/>
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+         >
+    <Button
+        android:id="@+id/bt_canda"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="كندا"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/bt_ger"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="المانيا "
+        android:textSize="24sp"/>
+
+            </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/bt_signOut"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/button_background"
+        android:text="تسجيل خروج"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        />
+</RelativeLayout>

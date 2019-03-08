@@ -1,0 +1,52 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:id="@+id/tv_TitleOfCountryName"
+        android:gravity="center"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:text=""
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:id="@+id/bt_places"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_background"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:text="اماكن"/>
+        <Button
+            android:id="@+id/bt_posts"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/button_background"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:text="المنشورات"/>
+        <Button
+            android:id="@+id/bt_chat"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:text="الدردشه"/>
+
+
+    </LinearLayout>
+</RelativeLayout>
